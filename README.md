@@ -10,6 +10,7 @@ Run the following commands:
 git clone https://github.com/oliinyk-vlad/news-project.git
 cd news-project
 docker-compose up --build -d
+docker-compose run web python3 manage.py migrate
 docker-compose up
 ```
 
